@@ -34,7 +34,7 @@ window.addEventListener("load", event => {
 
   let startLoop = () => {
     index = 0
-    intervalID = setInterval(setImg, 50)
+    intervalID = setInterval(setImg, 100)
   }
   
   startLoop()
